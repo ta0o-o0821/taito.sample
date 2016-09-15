@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size:20px;
+    background-color:white;
+}
+header{
+    background-image:url("bg".jpg;);
+    background-position:center center;
+    background-repeat:no-repeat;
+    padding-bottom:100px;
+}
+#logo{
+    padding:20px 0;
+    text-align:center;
+}
+#logo img{
+    max-width: 200px;
+    border:5px solid #ddd;
+    border-radius:100%;
+}
+#logo h1{
+    letter-spacing: 0.15em;
+    color: ;
+    text-shadow: 1px 1px 0px #ddd;
+    }
+nav{
+    margin: 0 0 30px 0;
+    padding:10px 0;
+    text-align:center;
+    background-color:dodgerblue ;
+}
+nav ul li{
+    margin: 0 20px;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: blink;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+nav ul li a:hover{
+    color: grey;
+}
+nav ul li a.selected{
+    color:#fff;
+}
+.container{
+    max-width: 800px; 
+    margin:100px auto 0;
+    background-color: #ddd;
+}
+section{
+    padding:30px 20px;
+}
+section h2{
+    padding; 10px 0 20px 0;
+    text-align: center;
+    letter-spacing: 0.15em;
+}
+section h3{
+   padding:10px;
+    font-size: 30px;
+    font-weight: bold;
+ }
+section h4{
+    padding: 5px
+    margin:10px;
+}
+section ul li{
+    padding: 10px 0;
+    margin: 10px;
+}
+footer{
+    padding: 20px 0;
+    text-align: center;
+    background-color: #ccc
+    color:#666;
+    font-size: 90%;
+}
+span.red{
+    color:red;
+}
+
